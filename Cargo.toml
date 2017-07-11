@@ -1,0 +1,8 @@
+[package]
+name = "xlibprogramming"
+version = "0.1.0"
+authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
+
+[dependencies]
+x11-dl = "2.14.0"
+
