@@ -5,4 +5,4 @@ authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
 
 [dependencies]
 x11-dl = "2.14.0"
-
+dbus = "0.5.3"

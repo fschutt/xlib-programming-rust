@@ -1,0 +1,16 @@
+/*
+Path Definition
+• Stroking
+Line width, joins & caps, dashing, etc.
+• Transformation
+2 x 3 (paths) and 3 x 3 (images) transformations
+• Rasterization
+• Clipping & Masking
+− Scissor rectangles
+• Paint Generation
+Flat color, gradient, or pattern paint
+• Blending
+Multiple blend modes
+• Dithering
+• Image Filters
+*/

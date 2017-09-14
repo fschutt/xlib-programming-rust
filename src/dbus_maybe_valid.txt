@@ -1,0 +1,3 @@
+To display menu each time some toplevel window is focused you need to call com.canonical.AppMenu.Registrar.RegisterWindow method of /com/canonical/AppMenu/Registrar passing window id and your menu path ( your string id, which is also a service name - usually build using some path and win id ). Then you need to implement com.canonical.dbusmenu interface on that service name - namely, GetLayout, GetGroupProperties, Event, AboutToShow and LayoutUpdated methods.
+
+I did simple library to implement all this in JavaScript using node-dbus and node-x11 libraries. See example which creates toplevel window and unity menu for it ( no glib / libdbus / libx11 dependencies here, pure networking )
